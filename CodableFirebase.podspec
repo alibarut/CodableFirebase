@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name = "CodableFirebase"
   s.summary = "Use Codable with Firebase"
   s.description = "This library helps you use your custom models that conform to Codable protocol with Firebase Realtime Database and Firestore"
-  s.homepage = "https://github.com/alickbass/CodableFirebase"
+  s.homepage = "https://github.com/alibarut/CodableFirebase"
   s.license = { :type => "MIT", :file => "LICENSE" }
-  s.author = { "Oleksii Dykan" => "alick_bass@mail.ru" }
+  s.author = { "Ali BARUT" => "alibarut88@gmail.com" }
   
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
