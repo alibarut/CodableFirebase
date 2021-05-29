@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.requires_arc = true
 
-  s.source = { :git => "https://github.com/alickbass/CodableFirebase.git", :tag => s.version, :branch => 'master'}
+  s.source = { :git => "https://github.com/alibarut/CodableFirebase.git", :tag => s.version, :branch => 'master'}
   s.source_files = "CodableFirebase/*.swift"
   s.swift_version = '5.0'
 end
