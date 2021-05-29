@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/alibarut/CodableFirebase"
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Ali BARUT" => "alibarut88@gmail.com" }
-  
+  s.version = "0.2.1"
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
   s.watchos.deployment_target = "2.0"
@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/alibarut/CodableFirebase.git", :branch => 'master'}
   s.source_files = "CodableFirebase/*.swift"
+  
   s.swift_version = '5.0'
 end
